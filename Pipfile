@@ -27,13 +27,14 @@ langchain-pinecone = "*"
 certifi = "*"
 langchain-chroma = "*"
 python-dotenv = "*"
+langchain-text-splitters = "*"
+httpx = "<1"
 
 [dev-packages]
 ipykernel = "*"
 
 [requires]
 python_version = "3.11"
-python_full_version = "3.11.0"
 
 [pipenv]
-allow_prereleases = true
+allow_prereleases = false
